@@ -55,7 +55,7 @@ m.sendMsg(m.jid , `_@${m.sender.split("@")[0]}_`  , {   mentions : [m.sender]} )
             try{
     /////////////////////
         args = args || m.quoted?.text;
-        if (!args) return await m.reply('_Need Name!*\n*Example: setname S P A R K Y._');
+        if (!args) return await m.reply('_Need Name!*\n*Example: setname 〆͎ＭＲ－Ｒａｂｂｉｔ._');
         await client.updateProfileName(args);
         await m.reply('_Profile name updated_');
     //////////////////////
@@ -75,7 +75,7 @@ m.sendMsg(m.jid , `_@${m.sender.split("@")[0]}_`  , {   mentions : [m.sender]} )
             try{
     /////////////////////
         args = args || m.quoted?.text;
-        if (!args) return await m.reply('_Need Status!*\n*Example: setbio Hey there! I am using WhatsApp._');
+        if (!args) return await m.reply('_Need Status!*\n*Example: setbio Hey there! I am using 〆͎ＭＲ－Ｒａｂｂｉｔ._');
         await client.updateProfileStatus(args);
         await m.reply('_Profile status updated_');
     //////////////////////
